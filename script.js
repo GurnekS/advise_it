@@ -1,5 +1,6 @@
-let out = document.getElementById('token');
 
+window.onload = uniqueToken;
+let out = document.getElementById('token');
 function uniqueToken() 
 {
     var result = '';

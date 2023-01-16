@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body onclick="uniqueToken()">
+  <body>
 
   <h1>Quarterly plan</h1>
   <p>token:</p>
