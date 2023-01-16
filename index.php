@@ -9,10 +9,12 @@
   <body>
     <h1>Advise-It</h1>
     <h1>Home<h1>
-    <button id="btn"> <a href="planPage.php"> Create New</button>
-
+    
+    <form action="planPage.php">
+            <button id="submit">Create New Plan</button>
+    </form>
+    <script src="script.js"></script>
   </body>
-  <script src="script.js"></script>
 </html>
 
 

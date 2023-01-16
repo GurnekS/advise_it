@@ -1,10 +1,14 @@
-let btn = document.getElementById("btn");
+let btn = document.getElementById("submit");
+let out = document.getElementById('token');
 btn.onclick = uniqueToken;
 
-function uniqueToken()
+function uniqueToken() 
 {
-    let token = Math.floor(Math.random()*999999);
-    token.innerHTML ="Unique token: " + token;
-     
-
+    var result = '';
+    var characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    var charactersLength = characters.length;
+    for ( var i = 0; i < 7; i++ ) {
+        result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    out.innerHTML = result;
 }

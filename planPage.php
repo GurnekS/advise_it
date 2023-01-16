@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+
   <body>
 
   <h1>This is the plan page<h1>
     <div id="token">
+
     </div>
-
+    <script src="script.js"></script>
   </body>
-
-  <script src="script.js"></script>
 </html>
