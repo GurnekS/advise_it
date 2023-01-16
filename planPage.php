@@ -7,8 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body onclick="uniqueToken()">
 
+  <h1>Quarterly plan</h1>
+  <p>token:</p>
+  <div id='token'></div>
 
   <div class="card">
     <div class="container">
@@ -50,10 +53,6 @@
     </div>
   </div>
 
-  <Button><a></Button>
-  
-
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
   </body>
 </html>

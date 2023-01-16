@@ -1,6 +1,4 @@
-let btn = document.getElementById("submit");
 let out = document.getElementById('token');
-btn.onclick = uniqueToken;
 
 function uniqueToken() 
 {
@@ -11,4 +9,5 @@ function uniqueToken()
         result += characters.charAt(Math.floor(Math.random() * charactersLength));
     }
     out.innerHTML = result;
+
 }

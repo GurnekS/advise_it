@@ -12,7 +12,7 @@
     <h1>Home<h1>
     
     <form action="planPage.php">
-            <button id="submit">Create New Plan</button>
+      <button>Create New</button>
     </form>
     <script src="script.js"></script>
   </body>
