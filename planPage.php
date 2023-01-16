@@ -13,26 +13,44 @@
   <div class="card">
     <div class="container">
     <h1><b>Fall</b></h1>
+    <input type="text" name="input" />
+    <input type="text" name="input" />
+    <input type="text" name="input" />
+    <input type="text" name="input" />
     </div>
   </div>
 
   <div class="card">
     <div class="container">
     <h1><b>Winter</b></h1>
+    <input type="text" name="input" />
+    <input type="text" name="input" />
+    <input type="text" name="input" />
+    <input type="text" name="input" />
     </div>
   </div>
 
   <div class="card">
     <div class="container">
     <h1><b>Spring</b></h1>
+    <input type="text" name="input" />
+    <input type="text" name="input" />
+    <input type="text" name="input" />
+    <input type="text" name="input" />
     </div>
   </div>
 
   <div class="card">
     <div class="container">
     <h1><b>Summer</b></h1>
+    <input type="text" name="input" />
+    <input type="text" name="input" />
+    <input type="text" name="input" />
+    <input type="text" name="input" />
     </div>
   </div>
+
+  <Button><a></Button>
   
 
 
