@@ -13,7 +13,7 @@
     <h1>Home<h1>
     
     <form action="planPage.php">
-      <button>Create New Plan</button>
+      <button>Create Plan</button>
     </form>
     <script src="script.js"></script>
   </body>
