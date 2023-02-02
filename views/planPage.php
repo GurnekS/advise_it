@@ -1,28 +1,15 @@
 <?php
   include 'header.php';
+  include '../functions/token.php';
+  include_once '../../../../db_info/db.php';
+  include '../functions/insert.php';
   
-  $token = "";
-
-  function random_strings()
-  {
-    $token = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-
-    return substr(str_shuffle($token), 0, 6);
-  }
-
-  $token = random_strings();
-  $fall = $_POST["fall"];
-  $winter = $_POST["winter"];
-  $spring = $_POST["spring"];
-  $summer = $_POST["summer"];
-
-  var_dump($token, $fall, $winter, $spring, $summer);
+  //var_dump($token, $fall, $winter, $spring, $summer);
 
   ?>
     
-    
     <!-- Four quarters representing Fall, Winter, Spring and Summer -->
-    <form action="" method="post">
+    <form method="post">
       
     <!-- Token -->
       <div class="container text-center">
@@ -62,8 +49,9 @@
           </div>
       </div><br>
       <div>
-         <input type="submit" value="Submit">
+         <input type="submit" value="Submit" name="submitForm">
       </div>
+    </div>  
     </form><br>
     
     
